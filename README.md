@@ -43,7 +43,7 @@ IDE adalah perangkat lunak yang menyediakan lingkungan pengembangan yang lengkap
 Fitur Utama IDE: Jelaskan fitur-fitur penting IDE selain yang sudah disebutkan (auto-completion, refactoring, debugging) dan bagaimana fitur-fitur ini meningkatkan produktivitas programmer.
 Contoh IDE: Berikan beberapa contoh IDE yang populer untuk bahasa pemrograman yang berbeda (misalnya, Visual Studio Code, PyCharm, Eclipse).
 
-### 2.Lakukan instalasi IDE (pilih salah satu):
+### LATIHAN 2.Lakukan instalasi IDE (pilih salah satu):
 ➢ DevC++
 ➢ Visual Studio Code
 ➢ CodeBlocks
@@ -278,6 +278,467 @@ printf digunakan untuk menampilkan data yang telah dimasukkan oleh pengguna.
 %.2f digunakan untuk menampilkan angka dengan format desimal 2 angka setelah titik desimal (digunakan untuk nilai pratikum, UTS, dan UAS).
 
 ### LATIHAN 3
+
+Program yang diberikan adalah program C yang menghitung luas segitiga berdasarkan nilai alas dan tinggi yang telah diberikan. Berikut adalah penjelasan langkah demi langkah tentang program ini:
+
+### 1. Inisialisasi Variabel
+Program dimulai dengan mendeklarasikan beberapa variabel:
+
+float alas = 8.0, tinggi = 5.0, luas;
+
+alas dan tinggi dideklarasikan dengan tipe data float (bilangan desimal) dan diberikan nilai awal 8.0 untuk alas dan 5.0 untuk tinggi.
+
+Variabel luas juga dideklarasikan dengan tipe data float, yang akan digunakan untuk menyimpan hasil perhitungan luas segitiga.
+
+### 2. Menghitung Luas Segitiga
+Setelah variabel diinisialisasi, program melanjutkan ke perhitungan luas segitiga:
+
+luas = 0.5 * alas * tinggi;
+​
+ ×alas×tinggi
+ 
+Luas=0.5×8.0×5.0=20.0
+
+Nilai 20.0 akan disimpan dalam variabel luas.
+
+### 3. Mencetak Hasil Perhitungan
+Setelah menghitung luas, program akan mencetak hasilnya ke layar dengan menggunakan fungsi printf:
+
+printf("Luas segitiga dengan alas %.2f cm dan tinggi %.2f cm adalah %.2f cm^2\n", alas, tinggi, luas);
+
+Penjelasan format string di dalam printf:
+
+%.2f digunakan untuk mencetak angka dengan dua angka di belakang koma.
+
+alas, tinggi, dan luas akan digantikan oleh nilai yang sesuai dalam format string tersebut.
+
+Program akan mencetak kalimat yang memberikan informasi mengenai alas, tinggi, dan luas segitiga:
+
+Luas segitiga dengan alas 8.00 cm dan tinggi 5.00 cm adalah 20.00 cm^2
+
+### 4. Akhir Program
+Program berakhir dengan perintah return 0; yang menandakan bahwa program telah selesai dieksekusi dengan sukses.
+
+### LATIHAN 4
+
+Program yang diberikan adalah program dalam bahasa C yang menghitung luas persegi panjang. Berikut adalah penjelasan langkah demi langkah dari program tersebut:
+
+### 1. Inisialisasi Variabel
+Program dimulai dengan mendeklarasikan dan menginisialisasi beberapa variabel:
+
+float panjang = 10.0, lebar = 5.0, luas;
+
+panjang dideklarasikan sebagai variabel bertipe float dengan nilai 10.0 cm.
+
+lebar juga dideklarasikan sebagai float dengan nilai 5.0 cm.
+
+luas adalah variabel bertipe float yang akan digunakan untuk menyimpan hasil perhitungan luas persegi panjang.
+
+### 2. Menghitung Luas Persegi Panjang
+Setelah variabel-variabel tersebut diinisialisasi, program melanjutkan untuk menghitung luas persegi panjang:
+
+luas = panjang * lebar;
+
+Rumus untuk menghitung luas persegi panjang adalah:
+
+Luas
+=
+panjang
+×
+lebar
+Luas=panjang×lebar
+
+Dengan nilai yang diberikan, yaitu panjang = 10.0 cm dan lebar = 5.0 cm, perhitungan luas menjadi:
+
+Luas=10.0×5.0=50.0
+
+Hasil perhitungan luas, yaitu 50.0, kemudian disimpan dalam variabel luas.
+
+### 3. Mencetak Hasil Perhitungan
+Setelah menghitung luas, program akan menampilkan hasilnya menggunakan fungsi printf:
+
+printf("Luas persegi panjang dengan panjang %.2f cm dan lebar %.2f cm adalah %.2f cm^2\n", panjang, lebar, luas);
+
+Penjelasan mengenai format string di dalam printf:
+
+%.2f adalah format specifier untuk mencetak nilai bertipe float dengan dua angka di belakang koma.
+
+panjang, lebar, dan luas akan digantikan oleh nilai variabel yang sesuai saat string ini dicetak ke layar.
+
+Hasil output dari program ini adalah:
+
+Luas persegi panjang dengan panjang 10.00 cm dan lebar 5.00 cm adalah 50.00 cm^2
+
+### 4. Akhir Program
+Program diakhiri dengan perintah:
+
+return 0;
+
+Perintah ini menunjukkan bahwa program telah berhasil dijalankan tanpa kesalahan. Nilai 0 menunjukkan bahwa eksekusi program selesai dengan sukses.
+
+### MODUL 3 Variabel, Konstanta Tipe Data
+
+### LATIHAN 1
+Program yang diberikan adalah program dalam bahasa C yang melakukan konversi dari Rupiah (IDR) ke Dolar AS (USD) berdasarkan kurs yang ditentukan. Berikut adalah penjelasan langkah demi langkah tentang cara kerja program ini:
+
+### 1. Deklarasi Variabel
+Program dimulai dengan mendeklarasikan beberapa variabel:
+
+const float dolar = 14250; // kurs saat ini: 1 dolar = 14250 rupiah
+
+float rupiah;
+
+float rupiahdolar;
+
+dolar adalah sebuah konstanta yang menyimpan nilai kurs saat ini, yaitu 1 USD = 14250 IDR. Konstanta ini tidak bisa diubah selama program berjalan karena dideklarasikan dengan kata kunci const.
+
+rupiah adalah variabel bertipe float yang akan digunakan untuk menyimpan jumlah Rupiah yang dimasukkan oleh pengguna.
+
+rupiahdolar adalah variabel bertipe float yang akan digunakan untuk menyimpan hasil konversi dari Rupiah ke Dolar AS.
+
+### 2. Input Pengguna
+Program kemudian meminta pengguna untuk memasukkan jumlah Rupiah yang ingin mereka tukar menjadi Dolar. Ini dilakukan dengan kode berikut:
+
+printf("masukkan jumlah rupiah yang ingin ditukar : ");
+
+scanf("%f", &rupiah);
+
+printf digunakan untuk menampilkan pesan yang meminta pengguna untuk memasukkan jumlah Rupiah.
+
+scanf digunakan untuk membaca input yang diberikan oleh pengguna dan menyimpannya dalam variabel rupiah. %f menunjukkan bahwa input yang dimasukkan adalah angka desimal (float).
+
+### 3. Menghitung Konversi
+Setelah mendapatkan jumlah Rupiah dari pengguna, program melakukan konversi ke Dolar AS menggunakan rumus:
+
+rupiahdolar = rupiah / dolar;
+
+Nilai rupiah yang dimasukkan oleh pengguna dibagi dengan nilai kurs dolar (14250). Hasilnya akan disimpan dalam variabel rupiahdolar, yang menunjukkan jumlah Dolar AS yang setara dengan jumlah Rupiah yang dimasukkan.
+
+### 4. Menampilkan Hasil
+Setelah konversi selesai, program menampilkan hasilnya menggunakan fungsi printf:
+
+printf("jumlah dolar yang akan anda dapatkan: %.2f USD\n", rupiahdolar);
+
+printf digunakan untuk menampilkan hasil konversi dalam format yang lebih mudah dibaca oleh pengguna.
+
+%.2f digunakan untuk mencetak angka rupiahdolar dengan dua angka di belakang koma.
+
+Program akan mencetak jumlah Dolar yang setara dengan jumlah Rupiah yang dimasukkan.
+
+### 5. Akhir Program
+Program diakhiri dengan perintah:
+
+return 0;
+Perintah ini menunjukkan bahwa program telah berhasil dijalankan tanpa kesalahan dan selesai dengan sukses.
+
+### LATIHAN 2
+Program yang diberikan adalah program dalam bahasa C yang mengonversi suhu dari Celsius ke tiga satuan suhu lainnya, yaitu Kelvin, Fahrenheit, dan Reamur. Berikut adalah penjelasan langkah demi langkah tentang bagaimana program ini bekerja:
+
+### 1. Deklarasi Variabel
+Program dimulai dengan mendeklarasikan beberapa variabel bertipe float:
+
+float c; 
+
+float kelvin, fahrenheit, reamur;
+
+c adalah variabel yang menyimpan suhu dalam Celsius yang dimasukkan oleh pengguna.
+
+kelvin, fahrenheit, dan reamur adalah variabel yang akan digunakan untuk menyimpan hasil konversi suhu ke dalam satuan Kelvin, Fahrenheit, dan Reamur.
+
+### 2. Input Suhu dalam Celsius
+Program meminta pengguna untuk memasukkan suhu dalam satuan Celsius dengan menggunakan fungsi scanf:
+
+printf("Input suhu dalam Celsius: ");
+
+scanf("%f", &c);
+
+printf menampilkan pesan untuk meminta pengguna memasukkan nilai suhu dalam Celsius.
+
+scanf digunakan untuk membaca input suhu dalam Celsius yang dimasukkan oleh pengguna, dan menyimpannya dalam variabel c. %f digunakan untuk membaca angka bertipe float.
+
+### 3. Konversi Suhu
+Setelah mendapatkan suhu dalam Celsius, program melakukan konversi suhu tersebut ke dalam tiga satuan suhu lainnya: Kelvin, Fahrenheit, dan Reamur.
+
+Konversi ke Kelvin:
+
+kelvin = c + 273.15;
+
+Nilai suhu dalam Celsius (yang disimpan dalam c) ditambah dengan 273.15 untuk menghasilkan suhu dalam Kelvin.
+
+Konversi ke Fahrenheit:
+
+fahrenheit = (c * 1.8) + 32;
+
+Rumus untuk mengonversi Celsius ke Fahrenheit adalah:
+
+Fahrenheit
+=
+(
+Celsius
+×
+1.8
+)
++
+32
+Fahrenheit=(Celsius×1.8)+32
+
+Nilai suhu dalam Celsius dikalikan dengan 1.8, kemudian ditambahkan dengan 32 untuk menghasilkan suhu dalam Fahrenheit.
+
+Konversi ke Reamur:
+
+reamur = c * 0.8;
+
+Rumus untuk mengonversi Celsius ke Reamur adalah:
+
+Reamur
+=
+Celsius
+×
+0.8
+Reamur=Celsius×0.8
+
+Nilai suhu dalam Celsius dikalikan dengan 0.8 untuk menghasilkan suhu dalam Reamur.
+
+### 4. Menampilkan Hasil Konversi
+Setelah melakukan konversi, program menampilkan hasil konversi suhu ke dalam tiga satuan tersebut (Kelvin, Fahrenheit, dan Reamur) menggunakan fungsi printf:
+
+
+printf("Suhu dalam Kelvin: %.2f\n", kelvin);
+
+printf("Suhu dalam Fahrenheit: %.2f\n", fahrenheit);
+
+printf("Suhu dalam Reamur: %.2f\n", reamur);
+
+printf digunakan untuk menampilkan hasil konversi suhu ke layar.
+
+%.2f digunakan untuk menampilkan angka dengan dua angka di belakang koma (desimal).
+
+kelvin, fahrenheit, dan reamur akan digantikan dengan nilai suhu yang sesuai setelah konversi dilakukan.
+
+### 5. Akhir Program
+Program diakhiri dengan perintah:
+
+return 0;
+Perintah ini menandakan bahwa program telah selesai dijalankan dan berakhir dengan sukses.
+
+### LATIHAN 3
+Program yang diberikan adalah program dalam bahasa C yang menghitung volume dan luas permukaan dari sebuah bola, berdasarkan diameter yang diberikan. Berikut adalah penjelasan langkah demi langkah mengenai cara kerja program ini:
+
+### 1. Deklarasi Variabel
+Program dimulai dengan mendeklarasikan beberapa variabel bertipe float dan konstanta:
+
+float diameter = 12;
+
+const float phi = 3.14;
+
+float r = diameter * 0.5;
+
+float volume = 4.0/3.0 * phi * r * r * r;
+
+float luas = 4.0 * phi * r * r;
+
+diameter: Variabel ini menyimpan nilai diameter bola. Dalam program ini, nilai diameter ditetapkan sebesar 12.
+
+phi: Ini adalah konstanta yang menyimpan nilai perkiraan π (Pi), yang dalam program ini diberi nilai 3.14.
+
+r: Variabel ini menyimpan nilai jari-jari bola yang dihitung dari diameter, dengan rumus 
+
+𝑟
+=
+diameter
+2
+r= 
+2
+diameter
+​
+ . Di sini, nilai diameter 12 dibagi 2, sehingga jari-jari 
+𝑟
+r menjadi 6.
+
+volume: Variabel ini menyimpan hasil perhitungan volume bola yang dihitung menggunakan rumus volume bola:
+
+Volume
+=
+4
+3
+×
+𝜋
+×
+𝑟
+3
+Volume= 
+3
+4
+​
+ ×π×r 
+3
+ 
+luas: Variabel ini menyimpan hasil perhitungan luas permukaan bola yang dihitung dengan rumus luas permukaan bola:
+
+Luas
+=
+4
+×
+𝜋
+×
+𝑟
+2
+Luas=4×π×r 
+2
+ 
+### 2. Perhitungan Volume Bola
+Setelah mendeklarasikan variabel-variabel tersebut, program menghitung volume bola dengan rumus:
+
+volume = 4.0/3.0 * phi * r * r * r;
+
+Rumus untuk volume bola adalah 
+4
+3
+×
+𝜋
+×
+𝑟
+3
+3
+4
+​
+ ×π×r 
+3
+ , di mana 
+𝑟
+
+r adalah jari-jari bola.
+
+Dalam program ini, phi adalah nilai π, dan r adalah jari-jari yang sebelumnya dihitung sebagai 6. Sehingga volume bola menjadi:
+
+Volume
+=
+4
+3
+×
+3.14
+×
+6
+3
+=
+4
+3
+×
+3.14
+×
+216
+=
+904.32
+Volume= 
+3
+4
+​
+ ×3.14×6 
+3
+ = 
+3
+4
+​
+ ×3.14×216=904.32
+ 
+Volume bola yang dihitung adalah 904.32.
+
+### 3. Perhitungan Luas Permukaan Bola
+Selanjutnya, program menghitung luas permukaan bola dengan rumus:
+
+luas = 4.0 * phi * r * r;
+
+Rumus untuk luas permukaan bola adalah 
+4
+×
+𝜋
+×
+𝑟
+2
+4×π×r 
+2
+ , di mana 
+𝑟
+r adalah jari-jari bola.
+
+Dengan nilai r sebesar 6, perhitungan luas permukaan bola menjadi:
+Luas
+=
+4
+×
+3.14
+×
+6
+2
+=
+4
+×
+3.14
+×
+36
+=
+452.16
+Luas=4×3.14×6 
+2
+ =4×3.14×36=452.16
+ 
+Luas permukaan bola yang dihitung adalah 452.16.
+
+### 4. Menampilkan Hasil Perhitungan
+Setelah melakukan perhitungan volume dan luas permukaan bola, program menampilkan hasilnya menggunakan fungsi printf:
+
+printf("volume: %.2f\n", volume);
+
+printf("luas; %.2f\n", luas);
+
+printf("volume: %.2f\n", volume); mencetak volume bola dengan dua angka di belakang koma.
+
+printf("luas; %.2f\n", luas); mencetak luas permukaan bola juga dengan dua angka di belakang koma.
+
+Output yang ditampilkan ke layar adalah:
+
+volume: 904.32
+
+luas; 452.16
+
+### 5. Akhir Program
+Program diakhiri dengan perintah:
+
+return 0;
+Perintah ini menunjukkan bahwa program telah selesai dieksekusi dengan sukses tanpa kesalahan.
+
+### MODUL 4 Operator
+
+### LATIHAN 1
+
+### Penjelasan Program:
+
+Deklarasi Variabel:
+
+detik: Menyimpan input jumlah waktu dalam detik.
+
+jam: Menyimpan hasil konversi dari detik ke jam.
+
+menit: Menyimpan hasil konversi dari detik ke menit.
+
+sisadetik: Menyimpan sisa detik setelah konversi ke menit.
+
+### Input Pengguna:
+
+Program meminta pengguna untuk memasukkan jumlah waktu dalam detik melalui perintah scanf.
+Proses Konversi:
+
+jam = detik / 3700;
+
+Baris ini bertujuan untuk mengonversi detik ke jam. Namun, ini salah karena 1 jam seharusnya setara dengan 3600 detik, bukan 3700. Jadi, seharusnya ditulis:
+
+Program mencetak hasil konversi waktu dalam format jam, menit, dan detik menggunakan printf.
+
+### LATIHAN 2
+
+
+
+
 
 
 
