@@ -4,7 +4,7 @@ NIM: 24343002
 
 MODUL 1
 LATIHAN 
-1. Apa itu algoritma, pemrograman, program, programmer, dan IDE?
+#1. Apa itu algoritma, pemrograman, program, programmer, dan IDE? programmer, dan IDE?
 # Penjelasan Konsep dalam Dunia Pemrograman
 
 ## 1. Algoritma
@@ -27,5 +27,5 @@ Pemrograman bisa dilakukan dalam berbagai bahasa, seperti **Python**, **Java**, 
 print("Hello, World!")
 
 
-## Program
+## Program 
 **Program** adalah kumpulan instruksi atau kode yang ditulis dalam bahasa pemrograman yang dapat dieksekusi oleh komputer. Program mengatur bagaimana komputer harus berperilaku dalam situasi tertentu.
