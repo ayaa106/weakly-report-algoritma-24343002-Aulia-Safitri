@@ -2,8 +2,6 @@
 
 **Nama**: Aulia Safitri  
 **NIM**: 24343002
-Consultant at <a href="https://www.thoughtworks.com">ThoughtWorks</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-</em></p>
 
 ## **Modul** 1  - Algoritma, Pemrograman, IDE  
 
