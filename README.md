@@ -1,8 +1,10 @@
 # Weakly Report Algoritma
 Nama: Aulia Safitri
+
 NIM: 24343002
 
 MODUL 1
+
 LATIHAN 
 #1. Apa itu algoritma, pemrograman, program, programmer, dan IDE? programmer, dan IDE?
 # Penjelasan Konsep dalam Dunia Pemrograman
