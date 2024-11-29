@@ -277,6 +277,8 @@ printf digunakan untuk menampilkan data yang telah dimasukkan oleh pengguna.
 
 %.2f digunakan untuk menampilkan angka dengan format desimal 2 angka setelah titik desimal (digunakan untuk nilai pratikum, UTS, dan UAS).
 
+### LATIHAN 3
+
 
 
 
