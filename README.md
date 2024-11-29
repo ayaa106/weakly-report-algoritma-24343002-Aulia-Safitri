@@ -43,7 +43,7 @@ IDE adalah perangkat lunak yang menyediakan lingkungan pengembangan yang lengkap
 Fitur Utama IDE: Jelaskan fitur-fitur penting IDE selain yang sudah disebutkan (auto-completion, refactoring, debugging) dan bagaimana fitur-fitur ini meningkatkan produktivitas programmer.
 Contoh IDE: Berikan beberapa contoh IDE yang populer untuk bahasa pemrograman yang berbeda (misalnya, Visual Studio Code, PyCharm, Eclipse).
 
-### LATIHAN 2.Lakukan instalasi IDE (pilih salah satu):
+### 2.Lakukan instalasi IDE (pilih salah satu):
 ➢ DevC++
 ➢ Visual Studio Code
 ➢ CodeBlocks
@@ -63,7 +63,7 @@ Pilih pengaturan yang sesuai pada setiap layar yang muncul, biasanya Anda dapat 
 Accept the agreement → Pilih I accept the agreement.
 Tentukan folder instalasi (default sudah sesuai).
 Pilih untuk membuat shortcut di desktop jika diinginkan.
-Pilih untuk menambahkan VS Code ke PATH (direkomendasikan untuk kemudahan penggunaan melalui terminal).
+Pilih untuk menambahkan VS Code ke PATH (direkomendasikan untuk kealui terminal).
 Mulai Instalasi:
 
 Klik Install untuk memulai proses instalasi.
