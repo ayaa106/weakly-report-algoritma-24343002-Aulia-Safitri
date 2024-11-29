@@ -3,10 +3,10 @@ Nama: Aulia Safitri
 
 NIM: 24343002
 
-MODUL 1
+MODUL 1  Algoritma, Pemrograman IDE.
 
 LATIHAN 
-#1. Apa itu algoritma, pemrograman, program, programmer, dan IDE? programmer, dan IDE?
+1. Apa itu algoritma, pemrograman, program, programmer, dan IDE? programmer, dan IDE?
 # Penjelasan Konsep dalam Dunia Pemrograman
 
 ## 1. Algoritma
@@ -29,5 +29,11 @@ Pemrograman bisa dilakukan dalam berbagai bahasa, seperti **Python**, **Java**, 
 print("Hello, World!")
 
 
-## Program 
+## 3. Program
 **Program** adalah kumpulan instruksi atau kode yang ditulis dalam bahasa pemrograman yang dapat dieksekusi oleh komputer. Program mengatur bagaimana komputer harus berperilaku dalam situasi tertentu.
+
+## 4. Programmer
+Programmer adalah orang yang menulis, mengembangkan, dan memelihara program komputer. Seorang programmer harus menguasai bahasa pemrograman dan prinsip-prinsip algoritma untuk dapat membuat solusi yang efektif.
+
+## 5. IDE (Integrated Development Environment)
+IDE adalah perangkat lunak yang menyediakan lingkungan untuk menulis dan mengelola kode dengan berbagai alat, seperti editor kode, debugger, dan compiler. IDE memudahkan programmer dalam menulis kode yang efisien dan bebas kesalahan.
