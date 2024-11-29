@@ -28,8 +28,10 @@ Pemrograman bisa dilakukan dalam berbagai bahasa, seperti **Python**, **Java**, 
 # Program Python sederhana untuk mencetak "Hello, World!"
 print("Hello, World!")
 
+---
 
-## 3. Program
+## Program
+
 **Program** adalah kumpulan instruksi atau kode yang ditulis dalam bahasa pemrograman yang dapat dieksekusi oleh komputer. Program mengatur bagaimana komputer harus berperilaku dalam situasi tertentu.
 
 ## 4. Programmer
