@@ -1,0 +1,23 @@
+2.Lakukan instalasi IDE (pilih salah satu):
+➢ DevC++
+➢ Visual Studio Code
+➢ CodeBlocks
+
+Langkah-langkah Instalasi Visual Studio Code di Windows:
+Unduh Visual Studio Code:
+
+Kunjungi situs resmi Visual Studio Code di https://code.visualstudio.com/.
+Klik tombol Download for Windows untuk mengunduh installer.
+Jalankan Installer:
+
+Setelah unduhan selesai, buka file VSCodeSetup-x64-<version>.exe yang telah diunduh.
+Klik Run untuk memulai proses instalasi.
+Pilih Pengaturan Instalasi:
+
+Pilih pengaturan yang sesuai pada setiap layar yang muncul, biasanya Anda dapat memilih pengaturan default:
+Accept the agreement → Pilih I accept the agreement.
+Tentukan folder instalasi (default sudah sesuai).
+Pilih untuk membuat shortcut di desktop jika diinginkan.
+Pilih untuk menambahkan VS Code ke PATH (direkomendasikan untuk kealui terminal).
+Mulai Instalasi:
+
